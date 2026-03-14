@@ -7,8 +7,6 @@
 - Nhận dạng ký tự: Sử dụng mô hình CNN để phân loại các chữ cái và chữ số.
 - Định dạng biển số: Sắp xếp lại các ký tự và xác định biển số để tạo kết quả hoàn chỉnh.
 
-## Cài đặt môi trường
-
 ## Cấu trúc thư mục
 ```
 BTL_TTNT/
@@ -53,4 +51,20 @@ BTL_TTNT/
 ├── generate_dataset.py           # Tạo dataset huấn luyện
 │
 ├── requirements.txt              # Danh sách thư viện cần cài đặt
+```
+## Cài đặt môi trường
+Trước tiên cần cài đặt Python. Sau đó tiến hành cài đặt các thư viện cần thiết cho dự án bằng các lệnh sau:
+```
+pip install tensorflow
+pip install numpy
+pip install matplotlib
+pip install opencv-contrib-python
+pip install streamlit
+pip install scikit-learn
+pip install scikit-image
+pip install imutils
+```
+Hoặc để cài đặt tất cả các thư viện cần thiết cho dự án, hãy chạy lệnh sau trong terminal:
+```
+pip install -r requirements.txt
 ```
