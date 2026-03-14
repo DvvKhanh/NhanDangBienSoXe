@@ -103,13 +103,13 @@ src/done/
 ```
 ### 5️⃣ Bước 5: Chạy chương trình nhận dạng
 🚀 Chạy ứng dụng Streamlit:
-- Mở Terminal / Command Prompt trong thư mục project và chạy lệnh:
+Mở Terminal / Command Prompt trong thư mục project và chạy lệnh:
 ```
 streamlit run app.py
 ```
 🚀 Mở giao diện ứng dụng:
-- Sau khi chạy lệnh trên, Streamlit sẽ tự động khởi động server và hiển thị địa chỉ truy cập.
-- Mở trình duyệt và truy cập:
+Sau khi chạy lệnh trên, Streamlit sẽ tự động khởi động server và hiển thị địa chỉ truy cập.
+Mở trình duyệt và truy cập:
 ```
 http://localhost:8501
 ```
