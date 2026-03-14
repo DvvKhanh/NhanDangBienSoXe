@@ -98,7 +98,9 @@ Sau khi chạy xong, hệ thống sẽ tạo thư mục:
 data/categorized/
 ```
 Thư mục này chứa các ảnh ký tự đã được phân loại theo từng nhãn, bao gồm:
+
 🔤 Chữ cái
+
 🔢 Chữ số
 
 2. Chuyển dữ liệu sang định dạng NumPy:
