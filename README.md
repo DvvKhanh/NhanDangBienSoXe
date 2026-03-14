@@ -87,20 +87,25 @@ pip install -r requirements.txt
 ### 4️⃣ Bước 4: Huấn luyện mô hình CNN
 Trước khi nhận dạng biển số, cần huấn luyện mô hình CNN để nhận dạng ký tự.
 
-- Mở file:
+Mở file:
 ```
 src/CNN/train.ipynb
 ```
-- Sau đó chạy toàn bộ các cell để huấn luyện.
 
-- Sau khi train xong sẽ tạo file model:
+Sau đó chạy toàn bộ các cell để huấn luyện.
+
+Sau khi train xong sẽ tạo file model:
 ```
 CNN_model.h5
 ```
-- File này sẽ được lưu trong thư mục:
+
+File này sẽ được lưu trong thư mục:
 ```
 src/done/
 ```
+
+#### Cách huấn luyện mô hình YOLOv3 Tiny có thể tham khảo tại đây: https://github.com/AlexeyAB/darknet?tab=readme-ov-file
+
 ### 5️⃣ Bước 5: Chạy chương trình nhận dạng
 🚀 Chạy ứng dụng Streamlit:
 
@@ -119,9 +124,9 @@ http://localhost:8501
 🚀 Sử dụng hệ thống:
 
 Tại giao diện web, người dùng có thể:
-- Upload ảnh hoặc video chứa biển số xe.
-- Hệ thống sẽ tự động phát hiện biển số.
-- Tách ký tự và nhận dạng bằng mô hình CNN.
-- Hiển thị kết quả biển số xe trên màn hình.
+- 📤 Upload ảnh hoặc video chứa biển số xe.
+- 🔍 Hệ thống sẽ tự động phát hiện biển số.
+- 🔠 Tách ký tự và nhận dạng bằng mô hình CNN.
+- ✅ Hiển thị kết quả biển số xe trên màn hình.
 
-## Kết quả nhận dạng
+## ✅ Kết quả nhận dạng
