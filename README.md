@@ -7,7 +7,7 @@
 - Nhận dạng ký tự: Sử dụng mô hình CNN để phân loại các chữ cái và chữ số.
 - Định dạng biển số: Sắp xếp lại các ký tự và xác định biển số để tạo kết quả hoàn chỉnh.
 
-## Cấu trúc thư mục
+## 1. Cấu trúc thư mục
 ```
 BTL_TTNT/
 │
@@ -67,4 +67,19 @@ pip install imutils
 Hoặc để cài đặt tất cả các thư viện cần thiết cho dự án, hãy chạy lệnh sau trong terminal:
 ```
 pip install -r requirements.txt
+```
+## Cài đặt
+### Bước 1. Clone Repository
+```
+git clone <repository-url>
+cd BTL_TTNT
+```
+### Bước 2: Tạo môi trường ảo
+Tạo môi trường Python:
+```
+python -m venv venv
+```
+Kích hoạt môi trường:
+```
+venv\Scripts\activate
 ```
