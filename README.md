@@ -52,7 +52,23 @@ BTL_TTNT/
 │
 ├── requirements.txt              # Danh sách thư viện cần cài đặt
 ```
-## Cài đặt môi trường
+
+## 2. Cài đặt
+### Bước 1. Clone Repository
+```
+git clone <repository-url>
+cd BTL_TTNT
+```
+### Bước 2: Tạo môi trường ảo
+Tạo môi trường Python:
+```
+python -m venv venv
+```
+Kích hoạt môi trường:
+```
+venv\Scripts\activate
+```
+### Bước 3: Cài đặt thư viện cần thiết
 Trước tiên cần cài đặt Python. Sau đó tiến hành cài đặt các thư viện cần thiết cho dự án bằng các lệnh sau:
 ```
 pip install tensorflow
@@ -68,18 +84,19 @@ Hoặc để cài đặt tất cả các thư viện cần thiết cho dự án,
 ```
 pip install -r requirements.txt
 ```
-## Cài đặt
-### Bước 1. Clone Repository
+### Bước 4: Huấn luyện mô hình CNN
+Trước khi nhận dạng biển số, cần huấn luyện mô hình CNN để nhận dạng ký tự.
+Mở file:
 ```
-git clone <repository-url>
-cd BTL_TTNT
+src/CNN/train.ipynb
 ```
-### Bước 2: Tạo môi trường ảo
-Tạo môi trường Python:
+Sau đó chạy toàn bộ các cell để huấn luyện.
+Sau khi train xong sẽ tạo file model:
 ```
-python -m venv venv
+CNN_model.h5
 ```
-Kích hoạt môi trường:
+File này sẽ được lưu trong thư mục:
 ```
-venv\Scripts\activate
+src/done/
 ```
+Sau đó chạy toàn bộ các cell để huấn luyện.
