@@ -87,7 +87,7 @@ pip install -r requirements.txt
 
 ### 4️⃣ Bước 4: Tạo dữ liệu ký tự
 
-1. Tạo dữ liệu ký tự từ ảnh
+### 1. Tạo dữ liệu ký tự từ ảnh
 
 Chạy file:
 ```
@@ -103,7 +103,7 @@ Thư mục này chứa các ảnh ký tự đã được phân loại theo từn
 
 🔢 Chữ số
 
-2. Chuyển dữ liệu sang định dạng NumPy:
+### 2. Chuyển dữ liệu sang định dạng NumPy
 
 Sau khi có dữ liệu ký tự, cần chuyển dữ liệu sang định dạng NumPy (.npy) để phục vụ huấn luyện mô hình CNN.
 
