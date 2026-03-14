@@ -114,8 +114,11 @@ streamlit run app.py
 http://localhost:8501
 ```
 🚀 Sử dụng hệ thống:
+
 Tại giao diện web, người dùng có thể:
 - Upload ảnh hoặc video chứa biển số xe.
 - Hệ thống sẽ tự động phát hiện biển số.
 - Tách ký tự và nhận dạng bằng mô hình CNN.
 - Hiển thị kết quả biển số xe trên màn hình.
+
+## Kết quả nhận dạng
