@@ -104,7 +104,7 @@ File này sẽ được lưu trong thư mục:
 src/done/
 ```
 
-#### Cách huấn luyện mô hình YOLOv3 Tiny có thể tham khảo tại đây: https://github.com/AlexeyAB/darknet?tab=readme-ov-file
+### 🔍 Cách huấn luyện mô hình YOLOv3 Tiny có thể tham khảo tại đây: https://github.com/AlexeyAB/darknet?tab=readme-ov-file
 
 ### 5️⃣ Bước 5: Chạy chương trình nhận dạng
 🚀 Chạy ứng dụng Streamlit:
