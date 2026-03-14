@@ -10,6 +10,7 @@
 ## Cài đặt môi trường
 
 ## Cấu trúc thư mục
+```
 BTL_TTNT/
 │
 ├── data/                         # Dữ liệu phục vụ huấn luyện và nhận dạng
@@ -52,4 +53,4 @@ BTL_TTNT/
 ├── generate_dataset.py           # Tạo dataset huấn luyện
 │
 ├── requirements.txt              # Danh sách thư viện cần cài đặt
-
+```
