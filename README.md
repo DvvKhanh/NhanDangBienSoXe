@@ -86,11 +86,13 @@ pip install -r requirements.txt
 ```
 ### Bước 4: Huấn luyện mô hình CNN
 Trước khi nhận dạng biển số, cần huấn luyện mô hình CNN để nhận dạng ký tự.
+
 Mở file:
 ```
 src/CNN/train.ipynb
 ```
 Sau đó chạy toàn bộ các cell để huấn luyện.
+
 Sau khi train xong sẽ tạo file model:
 ```
 CNN_model.h5
