@@ -87,7 +87,7 @@ pip install -r requirements.txt
 
 ### 4️⃣ Bước 4: Tạo dữ liệu ký tự
 
-🚀 Trước tiên cần tạo dữ liệu ký tự từ ảnh biển số:
+1. Tạo dữ liệu ký tự từ ảnh
 
 Chạy file:
 ```
@@ -97,9 +97,11 @@ Sau khi chạy xong, hệ thống sẽ tạo thư mục:
 ```
 data/categorized/
 ```
-Thư mục này chứa các ảnh ký tự đã được phân loại theo từng nhãn (chữ cái và chữ số).
+Thư mục này chứa các ảnh ký tự đã được phân loại theo từng nhãn, bao gồm:
+🔤 Chữ cái
+🔢 Chữ số
 
-🚀 Chuyển dữ liệu sang định dạng NumPy:
+2. Chuyển dữ liệu sang định dạng NumPy:
 
 Sau khi có dữ liệu ký tự, cần chuyển dữ liệu sang định dạng NumPy (.npy) để phục vụ huấn luyện mô hình CNN.
 
