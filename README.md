@@ -168,5 +168,5 @@ Tại giao diện web, người dùng có thể:
 - ✅ Hiển thị kết quả biển số xe trên màn hình.
 
 ## ✅ Kết quả nhận dạng
-<img width="691" height="486" alt="image" src="https://github.com/user-attachments/assets/73c3ed8f-c824-4a41-a0ab-37c542f873d2" />
+
 
