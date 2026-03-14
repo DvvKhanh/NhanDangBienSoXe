@@ -84,7 +84,41 @@ Hoặc để cài đặt tất cả các thư viện cần thiết cho dự án,
 ```
 pip install -r requirements.txt
 ```
-### 4️⃣ Bước 4: Huấn luyện mô hình CNN
+
+### 4️⃣ Bước 4: Tạo dữ liệu ký tự
+
+🚀 Trước tiên cần tạo dữ liệu ký tự từ ảnh biển số:
+
+Chạy file:
+```
+python generate_dataset.py
+```
+Sau khi chạy xong, hệ thống sẽ tạo thư mục:
+```
+data/categorized/
+```
+Thư mục này chứa các ảnh ký tự đã được phân loại theo từng nhãn (chữ cái và chữ số).
+
+🚀 Chuyển dữ liệu sang định dạng NumPy:
+
+Sau khi có dữ liệu ký tự, cần chuyển dữ liệu sang định dạng NumPy (.npy) để phục vụ huấn luyện mô hình CNN.
+
+Chạy file:
+```
+python src/CNN/create_data.py
+```
+
+Sau khi chạy xong sẽ tạo ra hai file dữ liệu:
+```
+alphas.npy   # dữ liệu ký tự chữ cái
+digits.npy   # dữ liệu ký tự số
+```
+
+Các file này sẽ được lưu trong thư mục:
+```
+data/
+```
+### 5️⃣ Bước 5: Huấn luyện mô hình CNN
 Trước khi nhận dạng biển số, cần huấn luyện mô hình CNN để nhận dạng ký tự.
 
 Mở file:
@@ -106,7 +140,7 @@ src/done/
 
 ### 🔍 Cách huấn luyện mô hình YOLOv3 Tiny có thể tham khảo tại đây: https://github.com/AlexeyAB/darknet?tab=readme-ov-file
 
-### 5️⃣ Bước 5: Chạy chương trình nhận dạng
+### 6️⃣ Bước 6: Chạy chương trình nhận dạng
 🚀 Chạy ứng dụng Streamlit:
 
 Mở Terminal / Command Prompt trong thư mục project và chạy lệnh:
