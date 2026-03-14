@@ -1,5 +1,5 @@
-# Bài tiểu luận Trí tuệ nhân tạo và học máy
-# Xây dựng ứng dụng nhận dạng biển số xe (License Plate Recognition)
+# 📌 Bài tiểu luận Trí tuệ nhân tạo và học máy
+# 📌 Xây dựng ứng dụng nhận dạng biển số xe (License Plate Recognition)
 ## Phương pháp nhận dạng biển số xe được sử dụng trong đề tài này được xây dựng theo một quy trình gồm 4 bước chính, kết hợp giữa các kỹ thuật phát hiện đối tượng, xử lý ảnh và học sâu nhằm đảm bảo độ chính xác và hiệu quả trong quá trình nhận dạng:
 ## Bước 1: Xác định vùng chứa biển số xe.
 - Ở bước đầu tiên, mô hình YOLOv3-Tiny được sử dụng để phát hiện vị trí của biển số trong ảnh hoặc khung hình video. Đây là một mô hình phát hiện đối tượng có tốc độ xử lý nhanh, phù hợp với các hệ thống yêu cầu xử lý gần thời gian thực.
