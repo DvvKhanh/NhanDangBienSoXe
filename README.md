@@ -168,3 +168,4 @@ Tại giao diện web, người dùng có thể:
 - ✅ Hiển thị kết quả biển số xe trên màn hình.
 
 ## ✅ Kết quả nhận dạng
+C:\Users\khanh\OneDrive\Hình ảnh\Ảnh chụp màn hình\Screenshot 2026-03-03 212148.png
