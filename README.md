@@ -216,3 +216,11 @@ Tại giao diện web, người dùng có thể:
 <div align="center">
 <img src="https://github.com/user-attachments/assets/faa7d7c6-b16d-40a7-945e-7761857c3e3d" width="800">
 </div>
+
+## 📌 4. Kết luận
+
+Hệ thống nhận dạng biển số xe đã được xây dựng thành công dựa trên sự kết hợp giữa các kỹ thuật xử lý ảnh và học sâu. Trong đó, mô hình YOLOv3-Tiny được sử dụng để phát hiện vị trí biển số xe trong ảnh hoặc video, còn mô hình CNN được sử dụng để nhận dạng các ký tự trên biển số.
+
+Kết quả thử nghiệm cho thấy hệ thống có khả năng phát hiện và nhận dạng biển số xe khá chính xác trong nhiều điều kiện khác nhau, đồng thời có thể xử lý dữ liệu đầu vào từ cả ảnh và video. Điều này cho thấy phương pháp được áp dụng trong đề tài là phù hợp và có tiềm năng ứng dụng trong các hệ thống thực tế như quản lý bãi đỗ xe, giám sát giao thông hoặc hệ thống an ninh.
+
+Tuy nhiên, hệ thống vẫn còn một số hạn chế như nhận dạng chưa chính xác khi biển số bị nghiêng mạnh, bị mờ hoặc khi các ký tự có hình dạng tương tự nhau. Do đó, trong tương lai cần tiếp tục cải tiến mô hình và mở rộng tập dữ liệu huấn luyện để nâng cao độ chính xác và tính ổn định của hệ thống.
