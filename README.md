@@ -205,13 +205,6 @@ Tại giao diện web, người dùng có thể:
 <img src="https://github.com/user-attachments/assets/4cea9e11-f81a-4d7c-b38c-33adf5bd81a5" width="800">
 </div>
 
-🐞 Lỗi nhầm lẫn giữa các ký tự tương tự như: 8 và B, 0 và D
-
-<div align="center">
-<img src="https://github.com/user-attachments/assets/b1c43e8e-3421-434a-9314-d1081fdd7bee" width="400">
-<img src="https://github.com/user-attachments/assets/3148da43-6c65-4ed1-813e-c0a948ee9c54" width="400">
-</div>
-
 🐞 Lỗi khi biển số bị che khuất một phần
 
 <div align="center">
