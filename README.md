@@ -167,7 +167,7 @@ Tại giao diện web, người dùng có thể:
 - 🔠 Tách ký tự và nhận dạng bằng mô hình CNN.
 - ✅ Hiển thị kết quả biển số xe trên màn hình.
 
-## ✅ Kết quả nhận dạng
+## ✅ 3. Kết quả nhận dạng
 
 ### 🍀 Phần mềm nhận dạng biển số xe cho thấy khả năng hoạt động ổn định trong nhiều điều kiện khác nhau, đáp ứng tốt yêu cầu phát hiện và nhận dạng biển số trong thực tế.
 
