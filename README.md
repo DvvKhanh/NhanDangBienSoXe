@@ -184,6 +184,21 @@ Tại giao diện web, người dùng có thể:
 </div>
 
 ### ❌ Tuy nhiên, bên cạnh những kết quả đạt được, phần mềm vẫn còn tồn tại một số hạn chế cần được cải thiện:
+
+🐞 Lỗi nhầm lẫn giữa các ký tự tương tự như: 8 và B, 0 và D
+
+<div align="center">
+<img src="https://github.com/user-attachments/assets/b1c43e8e-3421-434a-9314-d1081fdd7bee" width="400">
+<img src="https://github.com/user-attachments/assets/3148da43-6c65-4ed1-813e-c0a948ee9c54" width="400">
+</div>
+
+🐞 Lỗi do điều kiện ánh sáng quá mạnh hoặc quá yếu
+
+<div align="center">
+<img src="https://github.com/user-attachments/assets/9ebe83df-5914-4c8c-ab6c-1072a9fbfff6" width="400">
+<img src="https://github.com/user-attachments/assets/25defca9-7bee-4459-aa80-3d39063b0468" width="400">
+</div>
+
 🐞 Lỗi khi biển số bị nghiêng quá nhiều: có thể phát hiện được biển số nhưng nhận dạng sai nhiều ký tự hoặc không phát hiện được biển số.
 
 <div align="center">
@@ -197,22 +212,14 @@ Tại giao diện web, người dùng có thể:
 <img src="https://github.com/user-attachments/assets/3148da43-6c65-4ed1-813e-c0a948ee9c54" width="400">
 </div>
 
-
-🐞 Hoạt động kém khi ảnh quá mờ
-
-<div align="center">
-<img src="https://github.com/user-attachments/assets/faa7d7c6-b16d-40a7-945e-7761857c3e3d" width="800">
-</div>
-
 🐞 Lỗi khi biển số bị che khuất một phần
 
 <div align="center">
 <img src="https://github.com/user-attachments/assets/73e32396-13fd-4990-828e-42f43e13f861" width="800">
 </div>
 
-🐞 Lỗi do điều kiện ánh sáng quá mạnh hoặc quá yếu
+🐞 Hoạt động kém khi ảnh quá mờ
 
 <div align="center">
-<img src="https://github.com/user-attachments/assets/9ebe83df-5914-4c8c-ab6c-1072a9fbfff6" width="400">
-<img src="https://github.com/user-attachments/assets/25defca9-7bee-4459-aa80-3d39063b0468" width="400">
+<img src="https://github.com/user-attachments/assets/faa7d7c6-b16d-40a7-945e-7761857c3e3d" width="800">
 </div>
