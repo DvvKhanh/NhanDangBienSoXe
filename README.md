@@ -169,7 +169,47 @@ Tại giao diện web, người dùng có thể:
 
 ## ✅ Kết quả nhận dạng
 
-🍀 Phần mềm nhận dạng biển số xe có thể hoạt động được trên cả biển số 1 dòng và 2 dòng
+### 🍀 Phần mềm nhận dạng biển số xe cho thấy khả năng hoạt động ổn định trong nhiều điều kiện khác nhau, đáp ứng tốt yêu cầu phát hiện và nhận dạng biển số trong thực tế.
 
-<img width="1366" height="829" alt="Image" src="https://github.com/user-attachments/assets/ff1f09ca-5469-44d8-a0e6-374d11294d3b" />
+<div align="center">
+<img src="https://github.com/user-attachments/assets/ff1f09ca-5469-44d8-a0e6-374d11294d3b" width="800">
+</div>
 
+<div align="center">
+<img src="https://github.com/user-attachments/assets/826ad48d-71a5-471b-ab53-acb00305c9d4" width="400">
+<img src="https://github.com/user-attachments/assets/af70d991-6dac-4f5c-99de-6ce42420ed7f" width="400">
+</div>
+
+### ❌ Tuy nhiên, bên cạnh những kết quả đạt được, phần mềm vẫn còn tồn tại một số hạn chế cần được cải thiện:
+🐞 Lỗi khi biển số bị nghiêng quá nhiều: có thể phát hiện được biển số nhưng nhận dạng sai nhiều ký tự hoặc không phát hiện được biển số.
+
+<div align="center">
+<img src="https://github.com/user-attachments/assets/4cea9e11-f81a-4d7c-b38c-33adf5bd81a5" width="800">
+</div>
+
+🐞 Lỗi nhầm lẫn giữa các ký tự tương tự như: 8 và B, 0 và D
+
+<div align="center">
+<img src="https://github.com/user-attachments/assets/b1c43e8e-3421-434a-9314-d1081fdd7bee" width="400">
+<img src="https://github.com/user-attachments/assets/3148da43-6c65-4ed1-813e-c0a948ee9c54" width="400">
+</div>
+
+
+🐞 Hoạt động kém khi ảnh quá mờ
+
+<div align="center">
+<img src="https://github.com/user-attachments/assets/faa7d7c6-b16d-40a7-945e-7761857c3e3d" width="800">
+</div>
+
+🐞 Lỗi khi biển số bị che khuất một phần
+
+<div align="center">
+<img src="https://github.com/user-attachments/assets/73e32396-13fd-4990-828e-42f43e13f861" width="800">
+</div>
+
+🐞 Lỗi do điều kiện ánh sáng quá mạnh hoặc quá yếu
+
+<div align="center">
+<img src="https://github.com/user-attachments/assets/9ebe83df-5914-4c8c-ab6c-1072a9fbfff6" width="400">
+<img src="https://github.com/user-attachments/assets/25defca9-7bee-4459-aa80-3d39063b0468" width="400">
+</div>
