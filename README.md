@@ -169,5 +169,7 @@ Tại giao diện web, người dùng có thể:
 
 ## ✅ Kết quả nhận dạng
 
+🍀 Phần mềm nhận dạng biển số xe có thể hoạt động được trên cả biển số 1 dòng và 2 dòng
 
+<img width="1366" height="829" alt="Image" src="https://github.com/user-attachments/assets/ff1f09ca-5469-44d8-a0e6-374d11294d3b" />
 
