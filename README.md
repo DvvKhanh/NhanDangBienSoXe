@@ -11,6 +11,10 @@
 - Định dạng biển số: Sắp xếp lại các ký tự và xác định biển số để tạo kết quả hoàn chỉnh.
 
 ## 📁 1. Cấu trúc thư mục
+<div align="center">
+<img src="https://github.com/user-attachments/assets/0844f8d9-44c9-40d9-8b11-d1423af2d2b0" width="800">
+</div>
+
 ```
 BTL_TTNT/
 │
@@ -62,7 +66,7 @@ BTL_TTNT/
 git clone <repository-url>
 cd BTL_TTNT
 ```
-### 2️⃣ Bước 2: Tạo môi trường ảo
+### 1️⃣ Bước 1: Tạo môi trường ảo
 Tạo môi trường Python:
 ```
 python -m venv venv
@@ -71,7 +75,7 @@ Kích hoạt môi trường:
 ```
 venv\Scripts\activate
 ```
-### 3️⃣ Bước 3: Cài đặt thư viện cần thiết
+### 2️⃣ Bước 2: Cài đặt thư viện cần thiết
 Trước tiên cần cài đặt Python. Sau đó tiến hành cài đặt các thư viện cần thiết cho dự án bằng các lệnh sau:
 ```
 pip install tensorflow
@@ -88,7 +92,7 @@ Hoặc để cài đặt tất cả các thư viện cần thiết cho dự án,
 pip install -r requirements.txt
 ```
 
-### 4️⃣ Bước 4: Tạo dữ liệu ký tự
+### 3️⃣ Bước 3: Tạo dữ liệu ký tự
 
 #### 1. Tạo dữ liệu ký tự từ ảnh
 
@@ -125,7 +129,7 @@ Các file này sẽ được lưu trong thư mục:
 ```
 data/
 ```
-### 5️⃣ Bước 5: Huấn luyện mô hình CNN
+### 4️⃣ Bước 4: Huấn luyện mô hình CNN
 Trước khi nhận dạng biển số, cần huấn luyện mô hình CNN để nhận dạng ký tự.
 
 Mở file:
@@ -147,7 +151,7 @@ src/done/
 
 ### 🔍 Cách huấn luyện mô hình YOLOv3 Tiny có thể tham khảo tại đây: https://github.com/AlexeyAB/darknet?tab=readme-ov-file
 
-### 6️⃣ Bước 6: Chạy chương trình nhận dạng
+### 5️⃣ Bước 5: Chạy chương trình nhận dạng
 🚀 Chạy ứng dụng Streamlit:
 
 Mở Terminal / Command Prompt trong thư mục project và chạy lệnh:
