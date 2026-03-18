@@ -11,9 +11,7 @@
 - Định dạng biển số: Sắp xếp lại các ký tự và xác định biển số để tạo kết quả hoàn chỉnh.
 
 ## 📁 1. Cấu trúc thư mục
-<div align="center">
-<img src="https://github.com/user-attachments/assets/0844f8d9-44c9-40d9-8b11-d1423af2d2b0" width="800">
-</div>
+<img width="308" height="983" alt="Image" src="https://github.com/user-attachments/assets/0844f8d9-44c9-40d9-8b11-d1423af2d2b0" />
 
 ```
 BTL_TTNT/
