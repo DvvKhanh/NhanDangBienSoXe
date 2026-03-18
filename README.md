@@ -59,11 +59,6 @@ BTL_TTNT/
 ```
 
 ## ⚙️ 2. Cài đặt
-### 1️⃣ Bước 1. Clone Repository
-```
-git clone <repository-url>
-cd BTL_TTNT
-```
 ### 1️⃣ Bước 1: Tạo môi trường ảo
 Tạo môi trường Python:
 ```
