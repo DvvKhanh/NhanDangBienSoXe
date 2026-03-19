@@ -1,4 +1,4 @@
-# 📌 BÀI TIỂU LUẬN TRÍ TUỆ NHÂN TẠO VÀ HỌC MÁY
+# 📌 BÀI TẬP LỚN TRÍ TUỆ NHÂN TẠO VÀ HỌC MÁY
 # 📌 XÂY DỰNG ỨNG DỤNG NHẬN DẠNG BIỂN SỐ XE (LICENSE PLATE RECOGNITION)
 ## Sinh viên: Đậu Văn Khánh - MSSV: K225480106099
 ## Link YouTube: https://youtu.be/DBoS-85C0yA
