@@ -1,9 +1,8 @@
 # 📌 BÀI TIỂU LUẬN TRÍ TUỆ NHÂN TẠO VÀ HỌC MÁY
 # 📌 XÂY DỰNG ỨNG DỤNG NHẬN DẠNG BIỂN SỐ XE (LICENSE PLATE RECOGNITION)
-## Sinh viên: Đậu Văn Khánh
-## MSSV: K225480106099
-## Lớp: K58KTP
-
+## Sinh viên: Đậu Văn Khánh - MSSV: K225480106099
+## Link YouTube: https://youtu.be/DBoS-85C0yA
+## Link dữ liệu Google Drive: https://drive.google.com/drive/folders/1ez1k8Ef5-BRfZUyD0mEWBqUbgsAMd4G6?usp=sharing
 ## Phương pháp nhận dạng biển số xe trong hệ thống được xây dựng gồm 4 bước chính:
 - Phát hiện biển số: Sử dụng mô hình YOLOv3-Tiny để xác định vị trí biển số xe trong ảnh hoặc video.
 - Tách ký tự: Áp dụng thuật toán segmentation để tách từng ký tự trên biển số.
